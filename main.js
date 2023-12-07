@@ -19,7 +19,9 @@ btn.onclick = function () {
     // Création de la cible
     let target = document.createElement("img");
     target.id = "target";
-    target.src = "silly.png";
+    // target.src = "silly.png";
+    target.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/220px-Recep_Tayyip_Erdogan_in_Ukraine.jpg";
+    target.alt = "Image";
     container.appendChild(target);
     target.style.top = Math.random() * (500 - target.offsetHeight) + "px";
     target.style.left = Math.random() * (600 - target.offsetWidth) + "px";
