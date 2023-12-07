@@ -23,12 +23,13 @@ body {
 }
 
 .container {
-    height: 400px;
-    width: 500px;
+    height: 40vh;
+    width: 20vh;
     border: 1px solid #999;
     cursor: crosshair;
     position: relative;
-    padding: 20px;
+    padding: 1%;
+    /* padding-right: 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
