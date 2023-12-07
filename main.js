@@ -23,8 +23,8 @@ btn.onclick = function () {
     target.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/220px-Recep_Tayyip_Erdogan_in_Ukraine.jpg";
     target.alt = "Image";
     container.appendChild(target);
-    target.style.top = Math.random() * (500 - target.offsetHeight) + "px";
-    target.style.left = Math.random() * (600 - target.offsetWidth) + "px";
+    target.style.top = Math.random() * (400 - target.offsetHeight) + "px";
+    target.style.left = Math.random() * (100 - target.offsetWidth) + "px";
 
     // Faire disparaître la cible
     setTimeout(function () {
